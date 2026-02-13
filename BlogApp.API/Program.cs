@@ -28,7 +28,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         b => b.WithOrigins(
                 "http://localhost:5173", // Localde çalışırken lazım
-                "https://blog-frontend-delta-rosy.vercel.app" // YENİ: Vercel adresini buraya ekledik
+                "https://meminblog.vercel.app" // YENİ: Vercel adresini buraya ekledik
              )
               .AllowAnyHeader()
               .AllowAnyMethod());
